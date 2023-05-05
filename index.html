@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hot Beans | Home</title>
+    <style>
+        body {
+            background-color: #464646;
+            color: #fff;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        nav {
+            background-color: #000;
+            overflow: hidden;
+            position: relative;
+        }
+        nav a {
+            display: block;
+            float: right;
+            padding: 40px 30px;
+            color: #fff;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #ddd;
+            color: #000;
+        }
+        nav img {
+    position: absolute;
+    top: -19px;
+    left: -4px;
+    height: 110px;
+    padding: 14px;
+    width: 110px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px;
+            text-align: center;
+        }
+        h1 {
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+        p {
+            font-size: 24px;
+            line-height: 1.5;
+            margin-bottom: 40px;
+        }
+    </style>
+</head>
+<body>
+    <nav> <a href="https://mightyemmanuelyt.github.io/TheCreator/"><img src="./Hot Beans Logo transparant.png" alt="Hot Beans Logo" width="88" height="80"></a>
+        <a href="https://mightyemmanuelyt.github.io/HomePage/">Home</a>
+        <a href="https://mightyemmanuelyt.github.io/AboutPage/">About</a>
+        <a href="https://mightyemmanuelyt.github.io/MeetTeamPage/">Contact</a>
+        <a href="https://mightyemmanuelyt.github.io/JobSpecPage/">Job Specification&nbsp;</a>
+        <a href="https://mightyemmanuelyt.github.io/BlogPage/">Blog</a>
+    </nav>
+<div class="container">
+</div>
+<div class="container">
+    <h1>Apply Now</h1>
+    <form action="#" method="POST">
+        <label for="full-name">Full Name:</label><br>
+        <input type="text" id="full-name" name="full-name" required><br>
+
+        <label for="email">Email Address:</label><br>
+        <input type="email" id="email" name="email" required><br>
+
+        <label for="phone-number">Phone Number:</label><br>
+        <input type="tel" id="phone-number" name="phone-number" required><br>
+
+        <label for="resume">Resume/CV:</label><br>
+        <input type="file" id="resume" name="resume" accept=".pdf,.doc,.docx" required><br>
+
+        <label for="cover-letter">Cover Letter:</label><br>
+        <textarea id="cover-letter" name="cover-letter" required></textarea><br>
+
+        <label for="position">Position:</label><br>
+        <select id="position" name="position" required>
+            <option value="">--Please select a position--</option>
+            <option value="Marketing Manager">Marketing Manager</option>
+            <option value="Sales Representative">Sales Representative</option>
+            <option value="Web Developer">Web Developer</option>
+            <option value="Accountant">Accountant</option>
+            <option value="Customer Service Representative">Customer Service Representative</option>
+        </select><br>
+
+        <button type="submit">Submit</button>
+        <button type="button" onclick="window.location.href='Home.html'">Cancel</button>
+    </form>
+</div>
